@@ -54,7 +54,7 @@ struct Menu: View {
                         .padding(.trailing)
                 }
                 ScrollView(.horizontal, showsIndicators: false) {
-                    HStack(spacing: 30) {
+                    HStack(spacing: 20) {
                         Toggle("Starters", isOn: $startersIsEnabled)
                         Toggle("Mains", isOn: $mainsIsEnabled)
                         Toggle("Desserts", isOn: $dessertsIsEnabled)

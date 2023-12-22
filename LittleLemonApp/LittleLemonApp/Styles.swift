@@ -80,7 +80,7 @@ struct MyToggleStyle: ToggleStyle {
                 Color.highlightColor1
             }
         }
-        .cornerRadius(8)
+        .cornerRadius(12)
     }
 }
 

@@ -15,7 +15,7 @@ struct DetailItem: View {
     
     var body: some View {
         ScrollView {
-            AsyncImage(url: URL(string: dish.image ?? "hero")) { image in
+            AsyncImage(url: URL(string: dish.image ?? "")) { image in
                 image
                     .resizable()
                     .aspectRatio(contentMode: .fit)

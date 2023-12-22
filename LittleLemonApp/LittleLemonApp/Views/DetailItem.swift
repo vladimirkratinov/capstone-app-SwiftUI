@@ -30,14 +30,14 @@ struct DetailItem: View {
             Spacer(minLength: 20)
             Text(dish.descriptionDish ?? "")
                 .font(.regularText())
+                .padding()
             Spacer(minLength: 10)
             Text("$" + (dish.price ?? ""))
                 .font(.highlightText())
                 .foregroundColor(.primaryColor1)
                 .monospaced()
             Spacer()
-        }.scrollDisabled(true)
-            .padding()
+        }.scrollDisabled(false)
     }
 }
 

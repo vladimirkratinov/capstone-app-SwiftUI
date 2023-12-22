@@ -107,7 +107,7 @@ extension Font {
     }
     
     static func regularText() -> Font {
-        return Font.custom("Markazi Text", size: 18)
+        return Font.custom("Markazi Text", size: 14)
     }
     
     static func sectionTitle() -> Font {

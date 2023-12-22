@@ -12,27 +12,21 @@ struct Header: View {
     
     var body: some View {
         NavigationStack {
-            VStack {
-                ZStack {
-                    Image("logo")
-                    HStack {
-                        Spacer()
-                        if isLoggedIn {
-                            NavigationLink(destination: UserProfile()) {
-                                Image("profile")
-                                    .resizable()
-                                    .aspectRatio( contentMode: .fit)
-                                    .frame(maxHeight: 50)
-                                    .clipShape(Circle())
-                                    .padding(.trailing)
-                            }
-                        }
+            HStack {
+                Image("logo")
+                Spacer()
+                if isLoggedIn {
+                    NavigationLink(destination: UserProfile()) {
+                        Image("profile")
+                            .resizable()
+                            .aspectRatio( contentMode: .fit)
+                            .frame(maxHeight: 40)
+                            .clipShape(Circle())
+                            .padding(.trailing)
                     }
                 }
             }
         }
-        .frame(maxHeight: 60)
-        .padding(.bottom)
         .onAppear() {
             if UserDefaults.standard.bool(forKey: kIsLoggedIn) {
                 isLoggedIn = true
@@ -46,5 +40,6 @@ struct Header: View {
 struct Header_Previews: PreviewProvider {
     static var previews: some View {
         Header()
+            .background(Color.blue)
     }
 }

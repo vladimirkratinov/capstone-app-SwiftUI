@@ -23,7 +23,7 @@ struct FoodItem: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .font(.paragraphText())
                     .foregroundColor(.primaryColor1)
-                    .lineLimit(2)
+                    .lineLimit(10)
                 Spacer(minLength: 5)
                 Text("$" + (dish.price ?? ""))
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -39,6 +39,7 @@ struct FoodItem: View {
                 ProgressView()
             }
             .frame(maxWidth: 90, maxHeight: 90)
+            .cornerRadius(10)
             .clipShape(Rectangle())
         }
         .padding(.vertical)

@@ -21,13 +21,13 @@ struct Hero: View {
                         .foregroundColor(.white)
                         .font(.subTitleFont())
                         .frame(maxWidth: .infinity, alignment: .leading)
-                    Spacer(minLength: 5)
                     Text("""
                      We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.
                      """)
                     .foregroundColor(.white)
                     .font(.leadText())
                     .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.top, 20)
                 }
                 Image("hero")
                     .resizable()

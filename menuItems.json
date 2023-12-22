@@ -5,7 +5,7 @@
       "title": "Greek Salad",
       "description": "Greek Salad is a refreshing Mediterranean dish, combining tomatoes, cucumbers, olives, and feta cheese with olive oil and oregano for a deliciously simple and vibrant experience. It's a classic choice for a light and flavorful salad.",
       "price": "15.99",
-      "image": "greek-salad",
+      "image": "https://github.com/vladimirkratinov/capstone-app-SwiftUI/blob/4f6cdd1dc3c8eec5ee2e5554d9059681262e724a/Assets/Bruschetta.png",
       "category": "starters"
     },
     {
@@ -13,7 +13,7 @@
       "title": "Lemon Desert",
       "description": "Lemon Dessert is a delightful treat featuring the zesty brightness of lemons. With a perfect balance of tangy lemon flavor, sweetness, and a light, airy texture, it offers a refreshing and satisfying conclusion to any meal.",
       "price": "12.99",
-      "image": "lemon-dessert",
+      "image": "https://github.com/vladimirkratinov/capstone-app-SwiftUI/blob/4f6cdd1dc3c8eec5ee2e5554d9059681262e724a/Assets/Lemon%20dessert.png",
       "category": "desserts"
     },
     {
@@ -21,7 +21,7 @@
       "title": "Grilled Fish",
       "description": "Grilled Fish is a savory delight that showcases the simplicity of perfectly cooked fish. Infused with smoky flavors from the grill, it delivers a deliciously tender and flaky texture, making it a wholesome and flavorful choice for seafood enthusiasts.",
       "price": "29.99",
-      "image": "grilled-fish",
+      "image": "https://github.com/vladimirkratinov/capstone-app-SwiftUI/blob/4f6cdd1dc3c8eec5ee2e5554d9059681262e724a/Assets/Grilled%20fish.png",
       "category": "mains"
     },
     {
@@ -29,7 +29,7 @@
       "title": "Pasta",
       "description": "Pasta, a timeless comfort food, brings together al dente noodles and a variety of savory sauces. Versatile and satisfying, it offers endless possibilities, from classic marinara to creamy Alfredo, making it a beloved culinary canvas for diverse and flavorful dishes.",
       "price": "16.99",
-      "image": "pasta",
+      "image": "https://github.com/vladimirkratinov/capstone-app-SwiftUI/blob/4f6cdd1dc3c8eec5ee2e5554d9059681262e724a/Assets/Pasta.png",
       "category": "mains"
     },
     {

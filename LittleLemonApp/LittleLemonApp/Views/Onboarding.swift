@@ -14,21 +14,14 @@ struct Onboarding: View {
     @State var lastName = ""
     @State var email = ""
     @State var phoneNumber = ""
-    
     @State var isKeyboardVisible = false
-    @State var contentOffset: CGSize = .zero
-    
     @State var isLoggedIn = false
+    @State var contentOffset: CGSize = .zero
     
     var body: some View {
         NavigationStack {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack {
-                    Header()
-                    Hero()
-                        .padding()
-                        .background(Color.primaryColor1)
-                        .frame(maxWidth: .infinity, maxHeight: 240)
                     VStack {
                         NavigationLink(destination: Home(), isActive: $isLoggedIn) { }
                         Text("First name *")
